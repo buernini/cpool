@@ -2,7 +2,7 @@
 # README
 
 ## demo
-
+```
 package main
 
 import (
@@ -40,5 +40,6 @@ func main() {
     var xx chan int 
     <-xx
 }
+```
 
 
