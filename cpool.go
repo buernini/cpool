@@ -9,8 +9,12 @@ import (
 )
 
 const (
-	SERV_REDIS int = 1
-	SERV_MYSQL int = 2
+	SERV_REDIS     int = 1
+	SERV_MYSQL     int = 2
+	SERV_MEMCACHED int = 3
+	SERV_HBASE     int = 4
+	SERV_PG        int = 5
+	SERV_MONGODB   int = 6
 )
 
 // Init server connection config
