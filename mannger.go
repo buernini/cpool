@@ -56,7 +56,7 @@ func (cpm *CPoolMannger) heartbeat(servPool *ServPool) {
 				if err := servPool.serv.heartbeat(c); err != nil {
 					fmt.Printf("CPoolMannger heartbeat service happend error. message:%s\n", err)
 				} else {
-					fmt.Printf("CPoolMannger heartbeat service is alived info:%s:%d\n", options.Host, options.Port)
+					//fmt.Printf("CPoolMannger heartbeat service is alived info:%s:%d\n", options.Host, options.Port)
 				}
 			}
 		})
